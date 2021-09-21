@@ -1,0 +1,17 @@
+<div class="display-center">
+    <div class="card">
+        <div class="card-header">
+            <h1>Welcome</h1>
+        </div>
+        <div class="card-body">
+            <%= @user.name %>
+            <br>
+            <%= @user.email %>
+        </div>
+        <div class="card-footer">
+            <center>
+                <%= link_to "Logout", destroy_user_session_path, method: "delete", :class => "btn btn-danger" %>
+            </center>
+        </div>
+    </div>
+</div>
