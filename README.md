@@ -1,2 +1,2 @@
-# rails-devise_login
+# rails login
 Um login simples utilizando a gem Devise
